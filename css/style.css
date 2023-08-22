@@ -33,6 +33,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a:active {
+    color: gray;
+}
 
 /* O corpo do site */
 /* E seu cabeçalho */
@@ -46,12 +49,12 @@ header {
 header > h1 {
     font-variant: small-caps;
     font-family: var(--fonte-titulo);
-    font-size: 7vw;
+    font-size: 2em;
     letter-spacing: 5px;
 }
 
 header > p {
-    font-size: 2.5vw;
+    font-size: 1em;
 }
 
 /* O conteúdo do site */
@@ -59,7 +62,6 @@ header > p {
 section {
     padding: 10vh 2em;
     font-family: var(--font-manual);
-    font-size: 3vw;
     line-height: 2em;
 }
 
@@ -104,5 +106,4 @@ footer {
     color: white;
     text-align: center;
     padding: 2%;
-    font-size: 3vw;
 }
