@@ -29,9 +29,11 @@ a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    transition-duration: .2s;
 }
 a:hover {
     text-decoration: underline;
+    color: lightgray;
 }
 a:active {
     color: gray;
@@ -105,5 +107,5 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 2%;
+    padding: 1.5em;
 }
