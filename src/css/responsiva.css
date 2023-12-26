@@ -13,6 +13,11 @@
     }
     footer {
         padding: 6%;
+        padding-bottom: 10%;
+    }
+    footer #topo {
+        font-size: 2.6em;
+        margin-top: 2.5%;
     }
 }
 
@@ -24,6 +29,11 @@
         padding-bottom: 1.5em;
     }
     footer {
-        padding: 4%;
+        padding: 6%;
+        padding-top: 4%;
+    }
+    footer #topo {
+        font-size: 2.5em;
+        margin-top: 2.5%;
     }
 }
