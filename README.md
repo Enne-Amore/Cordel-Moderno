@@ -13,6 +13,7 @@ Mais um desafio proposto por Gustavo Guanabara com a temática "Cordel Moderno".
 
 - HTML
 - CSS
+- JavaScript
 
 
 ## 🪄 Funcionalidades
