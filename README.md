@@ -1,26 +1,26 @@
 
 # 📜 Cordel Moderno
 
-Mais um desafio proposto por Gustavo Guanabara com a temática "Cordel Moderno". Esse site se concentra em aplicar o efeito parallax simples o qual é feito usando as CSS.
-
-
-## ✅ Demonstração
-
-[Clique aqui para acessar o meu site](https://enne-amore.github.io/Cordel-Moderno/)
-
-
-## 🚀 Tecnologias Utilizadas
-
-- HTML
-- CSS
-- JavaScript
+ Mais um desafio proposto por Gustavo Guanabara com a temática "Cordel Moderno". Esse site se concentra em aplicar o efeito parallax simples o qual é feito usando as CSS.
 
 
 ## 🪄 Funcionalidades
  
-- Mais acessibilidade usando a tecla "tab"
-- Efeitos de "hover" e de "active" nos elementos clicáveis
-- Botão de voltar ao topo da página
+ - Mais acessibilidade usando a tecla "tab"
+ - Efeitos de "hover" e de "active" nos elementos clicáveis
+ - Botão de voltar ao topo da página
+
+
+## ✅ Demonstração
+
+ [Clique aqui para acessar o meu site](https://enne-amore.github.io/Cordel-Moderno/)
+
+
+## 🚀 Tecnologias Utilizadas
+
+ - HTML
+ - CSS
+ - JavaScript
 
 
 ## 🌈 Documentação De Cores
@@ -43,4 +43,4 @@ Mais um desafio proposto por Gustavo Guanabara com a temática "Cordel Moderno".
 
 ## 🔧 Suporte
 
-Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
+ Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
