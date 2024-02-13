@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
 /* A mente do site */
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 1em;
-}
 html, body {
     font: 1.5em var(--font-padrao);
     min-height: 100vh;
@@ -29,9 +24,9 @@ a:active {
 }
 
 /* O corpo do site */
-/* E seu cabeçalho */
+/* Cabeçalho */
 header {
-    background-color: black;
+    background-image: linear-gradient(to bottom, gray, black);
     color: white;
     text-align: center;
     padding: 3%;
@@ -48,7 +43,7 @@ header > p {
     font-size: 1em;
 }
 
-/* O conteúdo do site */
+/* Conteúdo */
 section {
     padding: 10vh 3em;
     font-family: var(--font-manual);
@@ -60,16 +55,6 @@ section > p {
     animation: fade 1s ease-out;
     animation-timeline: view();
     animation-range: cover -10% cover 36%;
-}
-@keyframes fade {
-    from {
-        opacity: 0;
-        translate: -10vw 0;
-    }
-    to {
-        opacity: 1;
-        translate: 0 0;
-    }
 }
 
 section.normal {
@@ -102,8 +87,7 @@ section#img02 {
     background-position: right center;
 }
 
-/* O rodapé do site */
-
+/* Rodapé */
 footer {
     background-color: black;
     color: white;
@@ -117,6 +101,7 @@ footer #topo {
     color: black;
     font-size: 2em;
     padding: 0.5%;
+    border-radius: 3px;
     transition-duration: .4s;
 }
 footer #topo:hover,

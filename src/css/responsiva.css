@@ -1,4 +1,7 @@
-@media screen and (max-width: 600px) {
+@charset "UTF-8";
+
+/* Dispositivos em pé */
+@media screen and (max-width: 600px) and (orientation: portrait) { /* Celulares */
     body {
         font-size: 6vw;
     }
@@ -21,7 +24,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) and (orientation: portrait) { /* Tablets */
     section {
         padding: 2em;
     }
@@ -35,5 +38,16 @@
     footer #topo {
         font-size: 2.5em;
         margin-top: 2.5%;
+    }
+}
+
+/* Dispositivos deitados */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    body {
+        font-size: 4vw;
+    }
+
+    footer #topo {
+        font-size: 2.6em;
     }
 }
